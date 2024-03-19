@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+@font-face {
+    font-family: "Romla";
+    src: url("Romla-ax6A5.otf");
+}
+
+.selected{
+    scale: 1.3;
+    box-shadow: 0 0 5px gray;
+    border: 2px black solid !important;
+}
+.selected-brand{
+    background-color: gray !important;
+    color: white !important;
+}
+.selected-size{
+    background-color: gray !important;
+    color: white !important;
+}
+
+.logo{
+    font-family: Romla;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(233, 233, 233) !important;
+    text-decoration: none;
+    letter-spacing: 0.5rem;
+    
+}
+
+#cta{
+    border-radius: 0;
+    width:190px;
+    font-size: 0.85rem;
+    background-color: black;
+    padding: 0.9rem;
+    color: white;
+    border: 1px white solid;
+}
+
+.title-search-filter{
+    background-color: white !important;
+    border: 1px white solid;
+    border-radius: 20px;
+    height: 80%;
+    padding: 0.5rem;
+}
+
+.navbar-expand-lg{
+    height: 65px; 
+    /* box-shadow: 0 0 6px rgb(58, 58, 58); */
+    background-color: white;
+    padding: 0.6rem;
+    color: rgb(204, 203, 203);
+}
+
+.navbar {
+    background-color: #6666663b !important;
+
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px rgba(128, 128, 128, 0.468) solid;
+}
+.nav-link {
+   color: #eeeeee;
+   font-family: 'Railway';
+   font-size: 0.9rem;
+}
+
+
+.title-search-filter{
+    background: none;
+    border-radius: none;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+.no-shoes-message{
+    height: 60vh;
+    display: none;
+}
+.empty-bag{
+    height: 60vh;
+    display: none;
+}
+
+.show{
+    display: block !important;
+}
+
+
+body{
+    font-family: "Raleway";
+    font-weight: 500;
+    background-color: #fcfcfc;
+}
+
+h1{
+    font-family: "Cormorant Garamond";
+}
+small{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 0.9rem !important;
+}
+p{
+    font-family: "Raleway";
+    font-weight: 500;
+}
+a{
+    font-family: "Raleway" !important; 
+}
+button{
+    font-family: "Raleway" !important; 
+}
+
+.shoe-box{
+    border-radius: 0;
+    margin-bottom: 0.7rem;
+}
+
+
+#dropDown{
+    border: none;
+    background: none;
+    margin: 0rem;
+}
+
+
+.text-container{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: #00000056;
+    padding: 3rem 2rem;
+}
+
+.text-container h1{
+    font-size: 4rem;
+    font-family: serif;
+    font-weight:700;
+    font-family: "Cormorant Garamond";
+}
+
+.hero-section{
+    background-image: url("../images/heidi-fin-2TLREZi7BUg-unsplash.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.8;
+  
+}
+.hero-text{
+    display: flex;
+    /* color: #ffffff; */
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.carousel-two{
+    background-image: url("../images/andrew-neel-HqtYwlY9dxs-unsplash.jpg");
+}
+.carousel-three{
+    background-image: url("../images/alex-wright-l95SmcTeKV8-unsplash.jpg");
+}
+
+.carousel-five{
+    background-image: url("../images/raden-prasetya-EvjmSg1xurI-unsplash.jpg");
+}
+
+
+
+@media screen and (max-width:500px) {
+    .container-fluid{
+        width: 100% !important;
+    }
+    .shoe-card-body{
+        height: 200px;
+    }
+    .shoe-box-wrapper{
+        margin:0rem;
+        padding:0rem
+    }
+    .shoe-box{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    .text-container{
+        width: 90%;
+    }
+    .logo{
+        font-size: 1.4rem;
+    }
+    nav{
+        height: 50px !important;
+    }
+}
+
+
+
+
+/* Define the container styles */
+.loading-container {
+    /* width: 100px; */
+    height: 100px;
+    background-color: darkgray;
+    animation: pulse 1s infinite alternate; /* Apply the pulse animation */
+  }
+  
+  /* Define the keyframes for the pulse animation */
+  @keyframes pulse {
+    0% {
+      background-color: darkgray;
+    }
+    100% {
+      background-color: rgb(241, 241, 241);
+    }
+  }
+  
+
+/* Add your custom CSS styles here */
+/* Example: */
+
